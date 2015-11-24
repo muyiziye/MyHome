@@ -46,9 +46,19 @@
   * 基本信息
 
     日期:    int
+
     早餐:    float
+
     中餐:    float
+
     晚餐:    float
+
     购物:    float
+
     其他:    float
+
+    工资:    float
+
+    其他收入: float
+
     总计:    float
