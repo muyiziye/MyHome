@@ -4,3 +4,4 @@
   * 2. 通过什么来知道右软键对应的是MSG\_APP\_CANCEL的呢？
   * 3. 在使用右软键来关闭窗口时，没有效果。经过验证，函数走到MSG\_APP\_CANCEL中了，换个其他函数有效果，但是使用了MMK\_CloseWin函数没有返回到IDEL窗口。
   * 4. 头文件的添加有什么规则，有很多的宏有什么用处。
+  * 5. 窗口Table中WIN\_ID其中的参数放在了\\MS\_Code\\MS\_MMI\\source\\mmi\_app\\common\\h\\mmi\_id.h中。
