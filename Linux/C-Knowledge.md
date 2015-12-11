@@ -13,7 +13,7 @@
     > 举例：
 
     > #define f(a,b) a##b
-    
+
     > #define g(a) #a
 
     > #define h(a) g(a)
