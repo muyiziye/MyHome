@@ -6,6 +6,6 @@
 
   * 2 多层宏嵌套，在输入#ifdef等的时候会自动的到顶格开始，建议根据嵌套层次来进行适当的缩进，来增加代码的可读性
 
-  * 3 gcc分部编译，test.c为例，gcc -E test.c -o test.i;gcc -S test.i -o test.s;gcc -c test.s -o test.o;gcc test.o
+  * 3 gcc分部编译，test.c为例，gcc -E test.c -o test.i;gcc -S test.i -o test.s;gcc -C test.s -o test;
 
 
