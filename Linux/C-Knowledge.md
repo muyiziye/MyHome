@@ -8,4 +8,18 @@
 
   * 3 gcc分部编译，test.c为例，gcc -E test.c -o test.i;gcc -S test.i -o test.s;gcc -C test.s -o test;
 
+  * 4 关于宏中间的#的说明，#的功能是将其后面的宏参数进行字符串化操作，##用来将多个Token连接为一个Token，
 
+    > 举例：
+
+    > #define f(a,b) a##b
+    
+    > #define g(a) #a
+
+    > #define h(a) g(a)
+
+    > 给出下面预处理后的结果
+
+    > g(a),g(g(a)),h(f(1,2)),g(f(1,2)),g(h(f(1,2))),h(g(f(1,2))),h(h(f(1,2))),
+
+    >答案："a"，"g(a)","12","f(1,2)","h(f(1,2))","f(1,2)","12"
