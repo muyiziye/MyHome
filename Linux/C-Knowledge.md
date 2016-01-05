@@ -28,8 +28,7 @@
 
  * 7 在c++中调用c的库函数可以使用如下方式
 
-`
-    #ifdef __cplusplus
+     #ifdef __cplusplus
 
      extern   "C"
 
@@ -38,4 +37,4 @@
      相关的库函数
 
      }
-`
+    
