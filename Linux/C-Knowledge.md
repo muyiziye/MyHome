@@ -27,10 +27,15 @@
  * 6 判断是c程序还是c++的程序可以使用如下宏来控制#ifdef __cplusplus来判断，因为__cplusplus是c++库中定义的宏，通过这个可以普安断是否是c++程序。
 
  * 7 在c++中调用c的库函数可以使用如下方式
-      {
-        #ifdef __cplusplus
-        extern   "C"
-        {
-         相关的库函数
-         }
-      }
+
+`
+    #ifdef __cplusplus
+
+     extern   "C"
+
+     {
+
+     相关的库函数
+
+     }
+`
