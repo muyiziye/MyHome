@@ -42,5 +42,4 @@
 
  * 9 assert的使用，需要加头文件#include<assert.h>,如果需要禁用assert可以在头文件前面加上#define NDEBUG，这样以来断言就不会产生效果了。
 
- * 10 
     
