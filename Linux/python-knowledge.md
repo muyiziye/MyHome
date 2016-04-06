@@ -4,3 +4,5 @@
 wget https://bootstrap.pypa.io/get-pip.py
 
 然后，sudo python get-pip.py
+
+安装virtualenv,pip install virtualenv
