@@ -9,3 +9,9 @@
     * 在运行命令make menuconfig 的时候出现错误Unable to find the ncurses libraries，此时使用下面命令安装ncurese。
 
       sudo apt-get install ncurses-dev
+
+    * 在运行命令make zImage的时候出现错误:libstdc++.so.6:con't open，这是因为使用的64位的系统，没有相关的32位的库，
+
+      sudo apt-get install lib32stdc++6     sudo apt-get install lib32z1
+
+      使用这两条命令即可。
