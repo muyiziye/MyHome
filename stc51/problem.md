@@ -1,0 +1,1 @@
+在使用linux进行单片机编程的过程中，出现中断interrupt关键字识别不了的问题，应该使用__interrupt。
