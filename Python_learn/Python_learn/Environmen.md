@@ -12,3 +12,16 @@
 
 ---
 
+## 使用virtualenvwrapper来对virtualenv进行二次封装使得其更加的好用。
+
+1.首先使用命令pip install virtualenvwrapper来安装virtualenvwrapper这个工具。此时会在/usr/local/bin/virtualenvwrapper.sh的脚本。
+
+2.因为需要修改配置使其登录有效，所以需要修改.bashrc文件，添加下面信息：
+  if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    export WORKON_HOME=$HOME/.virtualenvs
+    source /usr/local/bin/virtualenvwrapper.sh
+  fi
+
+3
+
+2.
