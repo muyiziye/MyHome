@@ -26,4 +26,14 @@
 
   fi
 
-3. 
+3.运行命令source ～/.bashrc让上述配置生效。
+
+4.使用命令mkvirtualenv newenv,此时就会生成相应的需要的环境，该工作目录即在$HOME/.virtualenvs目录下面了。
+
+5.可以使用workon newenv来使得新创建的虚拟环境生效。
+
+6.如果需要删除虚拟环境使用命令:rmvirtualenv newenv
+
+---
+
+## END
