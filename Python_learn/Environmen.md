@@ -2,11 +2,6 @@
 
 1.首先安装python和pip，pip安装需要下载包，解压后运行python setup.py install即可安装pip。
 
-首先获取pip的相关代码
-wget https://bootstrap.pypa.io/get-pip.py
-
-然后，sudo python get-pip.py
-
 2.然后安装虚拟环境，pip install virtualenv. 安装完成之后可以使用pip freeze来查看所有使用pip安装的软件的版本号。这些就是安装在/usr/local/lib/python2.7下的所有包的信息。
 
 3.创建一个文件mkdir work，然后在work目录下面运行命令virtualenv env. 这时候已经建立了一个叫做env的虚拟python环境了。
