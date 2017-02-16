@@ -17,6 +17,6 @@
 
 * 使用方法
 
-> **1.** 对于system，头文件为#include \<stdlib.h>，调用方法为int system(const char *command);
+> **1.** 对于system，头文件为#include \<stdlib.h>,调用方法 int system(const char *command);
 
-> **2.** 对于popen，头文件为#include \<stdio.h>,FILE *popen(const char *command, const char *type); int pclose(FILE *stream);type 有两种'w'和'r'
+> **2.** 对于popen，头文件为#include \<stdio.h>,调用方法 FILE *popen(const char *command, const char *type); int pclose(FILE *stream);type 有两种'w'和'r'
