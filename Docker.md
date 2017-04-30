@@ -16,6 +16,6 @@
 
 **8.** ubuntu安装的先决条件apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual（针对Ubuntu Trusty, Wily, and Xenial, 推荐安装 the linux-image-extra-* 内核包.  linux-image-extra-* 包允许你使用 aufs存储驱动.为了安装 linux-image-extra-* ）
 
-**9.** 安装docker，apt-get install docker-engine
+**9.** 安装docker，apt-get install docker-engine,使用此方法卡主了。所以尝试另一种方法apt-get install curl. curl -k -sSl https://get.docker.com | sudo sh(其中http文件是一个脚本)
 
 **10.** 使用docker， docker run hello-world
