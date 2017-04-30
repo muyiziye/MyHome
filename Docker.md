@@ -19,3 +19,13 @@
 **9.** 安装docker，apt-get install docker-engine,使用此方法卡主了。所以尝试另一种方法apt-get install curl. curl -k -sSl https://get.docker.com | sudo sh(其中http文件是一个脚本，发现该脚本也是要跑上面的命令，囧)
 
 **10.** 使用docker， docker run hello-world
+
+----
+
+**1.** 上述方法失败，使用下面方法成功
+
+$ sudo apt-get install apt-transport-https 
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9 
+$ sudo bash -c "echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list" 
+$ sudo apt-get update 
+$ sudo apt-get install lxc-docker
