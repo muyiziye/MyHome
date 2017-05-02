@@ -4,6 +4,8 @@
 
 **2.** 运行相关docker
 
-> 使用命令sudo docker run -i -t imageID /bin/bash 来启动一个container，并且开启一个terminal。如果运行中关闭了这个terminal之后，container已经在后台运行了，此时想在一次的连接该container可以使用命令 sudo docker exec containerID -it /bin/bash. 或者使用命令sudo docker attach containerID, 但是我在运行此命令的时候卡住了
+> 使用命令sudo docker run -i -t imageID /bin/bash 来启动一个container，并且开启一个terminal。如果运行中关闭了这个terminal之后，container已经在后台运行了，此时想在一次的连接该container可以使用命令 sudo docker exec containerID -it /bin/bash,在此环境下如果输入exit命令,那么该container仍然在后台中运行. 或者使用命令sudo docker attach containerID，输入exit命令，那么该container则会直接推出。
 
-**3.** 
+**3.** 运行好的Container网络是不能连通的
+
+> 
