@@ -9,3 +9,5 @@
 **3.** 运行好的Container网络是不能连通的
 
 > 
+
+**4** docker run -it --privileged=true -v /root/workdir/code/:/code opensuse11-onecli-build-env sh
