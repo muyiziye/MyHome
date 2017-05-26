@@ -35,3 +35,9 @@
     zip -r xx.zip ./* 把后面目录中的压缩为xx.zip文件
 
     unzip -o -d /home/ly/ xx.zip 把xx.zip文件解压到/home/ly/文件中，-o表明不提示直接覆盖，-d则是指明了解压的文件。
+
+* 10 md5sum的使用： 
+
+    md5sum xx.file > xx.md5 此时会将xx.file文件的md5值和文件名一起传入xx.md5中。
+
+    校验时输入md5sum -c xx.md5，此时会就会对文件进行校验，如果没有改变的话会输出ok
