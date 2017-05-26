@@ -30,7 +30,7 @@
 
     -v:反向显示，显示没有‘搜索字符串’的那些行。
 
-*9 zip的使用: zip 和 unzip 压缩以及解压
+* 9 zip的使用: zip 和 unzip 压缩以及解压
     
     zip -r xx.zip ./* 把后面目录中的压缩为xx.zip文件
 
