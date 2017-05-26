@@ -29,3 +29,9 @@
     -n:顺便输出行号。
 
     -v:反向显示，显示没有‘搜索字符串’的那些行。
+
+*9 zip的使用: zip 和 unzip 压缩以及解压
+    
+    zip -r xx.zip ./* 把后面目录中的压缩为xx.zip文件
+
+    unzip -o -d /home/ly/ xx.zip 把xx.zip文件解压到/home/ly/文件中，-o表明不提示直接覆盖，-d则是指明了解压的文件。
