@@ -41,3 +41,7 @@
     md5sum xx.file > xx.md5 此时会将xx.file文件的md5值和文件名一起传入xx.md5中。
 
     校验时输入md5sum -c xx.md5，此时会就会对文件进行校验，如果没有改变的话会输出ok
+
+* 11 ls简单实用
+
+    ls -alh 实用-h能够更清楚的看数据的单位，K，M，G
