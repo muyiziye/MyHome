@@ -33,3 +33,29 @@
 > $ sudo apt-get update 
 
 > $ sudo apt-get install lxc-docker
+
+### 在ubuntu16.04上安装docker
+
+**1.** 先更改apt源，对以前的源备份
+
+> sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
+**2.** 修改源文件sources.list,添加
+
+<pre>
+sudo gedit /etc/apt/sources.list
+deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+</pre>
+
+**3.** 更新源，sudo apt-get update
+
+**4.** 安装docker, sudo apt-get install docker.io 然后重启 sudo reboot
