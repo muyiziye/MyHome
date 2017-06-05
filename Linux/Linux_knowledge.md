@@ -45,3 +45,5 @@
 * 11 ls简单实用
 
     ls -alh 实用-h能够更清楚的看数据的单位，K，M，G
+
+* 12 可以使用下面方法来制作usb的启动介质，dd if=disk.img of=/dev/sda1 或者 cat diskboot.img > /dev/sda1
