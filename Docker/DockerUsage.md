@@ -13,3 +13,7 @@
 > sudo docker commit -m "message body" old_Docker_container_ID new_Docker_Name
 
 **4** docker run -it --privileged=true -v /root/workdir/code/:/code opensuse11-onecli-build-env sh
+
+**5.** 自己制作镜像，
+
+http://blog.csdn.net/hjh00/article/details/51437815
