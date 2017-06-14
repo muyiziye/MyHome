@@ -2,7 +2,7 @@
 
 **1.** 没有这个文件/lib/ld-linux.so.2
 
-> yum install glibc -y, 但是在yum源不能很好的使用，所以下面开始更换源,此时也可以直接使用rpm包安装rpm -ivh glibc-2.24-6.fc25.i686.rpm --force --nodeps
+> yum install glibc -y, 但是在yum源不能很好的使用，所以下面开始更换源,此时也可以直接使用rpm包安装rpm -ivh glibc-2.24-6.fc25.i686.rpm --force --nodeps，与此同时还需要安装两个包rpm-devel-4.4.2.3-37.16.37.x86_64.rpm和popt-devel-1.7-37.16.37.x86_64.rpm，对与前者，在redhat上面可能需要换成rpm-devel-4.8.0-55.el6.x86_64.rpm，因为4.4.2中会缺少#include <rpm/rpmlegacy.h>文件。
 
 **2.** 更换yum源
 
