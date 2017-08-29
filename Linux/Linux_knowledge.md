@@ -50,4 +50,4 @@
 
 * 13 查看linux的版本，lsb_release -a，对于redhat来说，cat /etc/redhat-release
 
-* 14 u盘的常用格式有3中，fat32，ntfs，exfat的，fat32的优点是快存储小，缺点是不能一次存取大于4G的，ntfs的话是每次存取两次，有log，安全，但是对于有些相对老的系统不支持，对于redhat来说可以安装 [ntfs-3g_ntfsprogs-2017.3.23](http://www.tuxera.com/community/open-source-ntfs-3g/)
+* 14 u盘的常用格式有3中，fat32，ntfs，exfat的，fat32的优点是快存储小，缺点是不能一次存取大于4G的，ntfs的话是每次存取两次，有log，安全，但是对于有些相对老的系统不支持，对于redhat来说可以安装 [ntfs-3g_ntfsprogs-2017.3.23](http://www.tuxera.com/community/open-source-ntfs-3g/)，而对于exfat来说目前的情况是其兼容性不好，所以不建议使用。
