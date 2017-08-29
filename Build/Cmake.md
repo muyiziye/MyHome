@@ -33,4 +33,25 @@
 
 * if 语句
 
-   > 
+   <pre>
+if(WIN32) 
+# do something for win32 
+else() 
+# do something for not win32 
+endif(WIN32)
+   </pre>
+
+> 或者
+
+   <pre>
+if(WIN32)
+# do something for win32
+elseif(UNIX)
+# do something for unix
+elseif(APPLE)
+# do somethong for apple
+endif(WIN32)
+   </pre>
+
+* message 命令的使用
+
