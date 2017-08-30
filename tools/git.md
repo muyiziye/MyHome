@@ -4,7 +4,7 @@
 
    > git stash 命令简而言之就是帮助开发人员暂时搁浅当时已经做的改动，回退到改动之前的状态。
 
-   > **A** 使用git add 把所有的改动添加到staging area.  COMMOND: git add .
+   > **A** 使用git add 把所有的改动添加到staging area.  COMMAND: git add .
 
    > **B** 使用git stash来搁置之前的改动
 
