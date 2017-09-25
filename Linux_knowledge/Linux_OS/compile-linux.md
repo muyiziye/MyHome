@@ -14,5 +14,7 @@
 
 > 将cc后面的选项改为-march=x86-64
 
+**4.** init/main.c:139: Error: invalid instruction suffix for `push'
 
+> 在gcc后面加上 -m32
 
