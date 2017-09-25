@@ -18,3 +18,6 @@
 
 > 在gcc后面加上 -m32
 
+**5.** asm.s:20: Error: invalid instruction suffix for `push'
+
+> 在开头处添加.code32
