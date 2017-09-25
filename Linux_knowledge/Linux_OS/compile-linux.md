@@ -9,3 +9,10 @@
 **2.** 遇到boot/head.s:43: Error: unsupported instruction `mov'等一系列的head.s中的问题
 
 > 在对应的makefile文件的gcc后面添加-m32编译即可
+
+**3.** 遇到gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+
+> 将cc后面的选项改为-march=x86-64
+
+
+
