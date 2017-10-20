@@ -1,3 +1,7 @@
+**1.** 首先启动docker服务
+
+> service docker start
+
 **1.** 下载相关的镜像
 
 > 使用sudo docker search来查询相关的image， 然后使用sudo docker pull XXX 来下载所需要的image文件。因为从官方Docker Hub下载非常慢，所以这里从国内的镜像站http://dockerpool.com/下载，具体命令如下：
