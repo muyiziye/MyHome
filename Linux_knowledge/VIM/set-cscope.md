@@ -1,3 +1,4 @@
 ### 配置 CSCOPE
 
-**1.** 在根目录下面输入：cscope -Rbqk
+find `pwd` -name *.h -o -name *.c -o -name *.cpp > cscope.files  
+cscope -Rbqk -i cscope.files 
