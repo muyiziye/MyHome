@@ -25,3 +25,5 @@ http://blog.csdn.net/hjh00/article/details/51437815
 **6.** 运行gerrit的docker
 
 docker run -it -p 8080:8080 -p 81:80 -p 29418:29418 -p 25:25 test_gerrit /bin/bash
+
+**7.**
