@@ -16,7 +16,17 @@
 
 > 对于CMD 和 ENTRYPOINT两者，CMD可以通过docker run后面的参数来覆盖。而ENTRYPOINT的话只能通过docker run的--entrypoint参数来覆盖了。
 
+**4.** RUN命令
 
+- RUN命令允许在构建镜像的时候执行指定的shell命令。
+
+**5.** EXPOSE命令
+
+- EXPOSE指令将应用程序监听的端口暴露给外部。
+
+**6.** ADD命令
+
+- ADD指令将应用程序复制到容器内的系统文件上。
 
 ---
 
