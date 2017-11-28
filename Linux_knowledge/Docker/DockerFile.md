@@ -35,3 +35,7 @@
 **1.** 在完成了Dockerfile之后可以使用docker build . 来进行构建
 
 **2.** 直接使用上面的命令来构建的话，没有仓库名和标签信息，可以通过docker build -t参数来为仓库设置名字和标签docker build -t testdocker:hello .
+
+**3.** 在构建过程中，Docker会将Dockerfile所在文件夹下的目录复制到构建环境中，使用.dockerignore文件可以将指定的文件或者是文件夹在镜像构建时从文件复制列表中排除。
+
+**4.** 最大程度的减少镜像的层数。
