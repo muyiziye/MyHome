@@ -1,6 +1,13 @@
 ---
 title: 配置python虚拟环境
 
+date: 2018-01-28 23:45
+tags:
+- python
+- 环境
+categories:
+- python
+
 ---
 
 ## 配置python的虚拟环境
@@ -22,14 +29,16 @@ title: 配置python虚拟环境
 1.首先使用命令pip install virtualenvwrapper来安装virtualenvwrapper这个工具。此时会在/usr/local/bin/virtualenvwrapper.sh的脚本。
 
 2.因为需要修改配置使其登录有效，所以需要修改.bashrc文件，添加下面信息：
+``` bash
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
 
-  if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+  export WORKON_HOME=$HOME/.virtualenvs
 
-    export WORKON_HOME=$HOME/.virtualenvs
+  source /usr/local/bin/virtualenvwrapper.sh
 
-    source /usr/local/bin/virtualenvwrapper.sh
+fi
+```
 
-  fi
 
 3.运行命令source ～/.bashrc让上述配置生效。
 
