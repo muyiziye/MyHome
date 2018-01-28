@@ -20,6 +20,8 @@ categories:
 
 4.运行命令source env/bin/activate即可开启虚拟环境。
 
+<!-- more -->
+
 5.在虚拟环境下面输入deactive命令即可退出虚拟环境。
 
 ---
