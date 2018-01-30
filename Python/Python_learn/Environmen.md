@@ -2,9 +2,11 @@
 title: 配置python虚拟环境
 
 date: 2018-01-28 23:45
+
 tags:
 - python
 - 环境
+
 categories:
 - python
 
@@ -52,5 +54,4 @@ fi
 
 ---
 
-## END
 <!--blog-->
