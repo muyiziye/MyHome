@@ -15,3 +15,7 @@
    > **E** 删除其中一个stash，使用命令git stash drop <id>
 
    > **F** 清空所有的stash， git stash clear
+
+**2.** git log
+
+   > 查看该次提交了哪些文件: git log --oneline --name-only -1
