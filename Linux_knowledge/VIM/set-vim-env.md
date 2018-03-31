@@ -2,7 +2,7 @@
 
 **1.** 基本环境配置
 
-<pre>
+```
 set shiftwidth=4     " (自动) 缩进使用的4个空格 
 set tabstop=4        " 设置制表符(tab键)的宽度
 set showmatch        " 设置匹配模式，显示匹配的括号 
@@ -18,4 +18,4 @@ set ruler            " 标尺
 set showcmd          " 命令行显示输入的命令  
 set showmode         " 命令行显示vim当前模式  
 syntax on            " 语法高亮  
-</pre>
+```
