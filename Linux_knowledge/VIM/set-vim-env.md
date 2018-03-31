@@ -11,6 +11,7 @@ set whichwrap=b,s,<,>,[,]
                      " 光标从行首和行末时可以跳到另一行去 
 set mouse=a          " Enable mouse usage (all modes) "使用鼠标 
 set number           " Enable line number "显示行号 
+set relativenumber   " 显示相对行号，于上面结合可以继显示相对行号，在当前行显示绝对行号
 "set previewwindow   " 标识预览窗口
 set history=2000     " set command history to 2000 "历史记录2000条
 set ruler            " 标尺
