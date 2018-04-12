@@ -19,6 +19,6 @@ set ruler            " 标尺
 set showcmd          " 命令行显示输入的命令  
 set showmode         " 命令行显示vim当前模式  
 set nocp             " 让vim工作在不兼容模式，不去模仿vi的动作
-set et               " 在编辑的时候将tab替换为空格
+set et               " 在编辑的时候将tab替换为空格,并不会将已经存在的tab替换掉，替换全局的话输入:retab
 syntax on            " 语法高亮  
 ```
