@@ -24,5 +24,6 @@ set cin              " 设置c/c++格式的自动缩进
 set ai               " 设置普通文件模式的自动缩进
 set nowrap           " 设置文本显示超过屏幕的部分不换行显示。
 set guioptions+=b    " 在gui中在有文本显示超过屏幕的时候添加滚动条
+set scrolloff=7      " 设置光标在滚动时上下最少显示7行
 syntax on            " 语法高亮  
 ```
