@@ -18,5 +18,6 @@ set ruler            " 标尺
 "--命令行设置--  
 set showcmd          " 命令行显示输入的命令  
 set showmode         " 命令行显示vim当前模式  
+set nocp             " 让vim工作在不兼容模式，不去模仿vi的动作
 syntax on            " 语法高亮  
 ```
