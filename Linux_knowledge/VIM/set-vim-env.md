@@ -22,5 +22,7 @@ set nocp             " 让vim工作在不兼容模式，不去模仿vi的动作
 set et               " 在编辑的时候将tab替换为空格,并不会将已经存在的tab替换掉，替换全局的话输入:retab
 set cin              " 设置c/c++格式的自动缩进
 set ai               " 设置普通文件模式的自动缩进
+set nowrap           " 设置文本显示超过屏幕的部分不换行显示。
+set guioptions+=b    " 在gui中在有文本显示超过屏幕的时候添加滚动条
 syntax on            " 语法高亮  
 ```
