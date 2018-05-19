@@ -50,15 +50,9 @@ if "__main__" == __name__:
 [root@localhost plugins]# ./showdisk
 <<<showdisk>>>
 liuyang         3771980
-liusq           8524160
-lixin           80
-panpeng         56
 perry           6134268
-qinghui         21328
-quyuan          2766504
 jessica         2684096
 xiaodw          7578872
-zhubin          4279900
 ```
 
 **3.** 在监控端创建插件
@@ -66,12 +60,9 @@ zhubin          4279900
 - [ ] 首先确认上面的监控脚本是否成功
 
 ```
-OMD[lxce@7f3c49fe22bf]:~$ cmk -d hostip | grep -A 5 showdisk
+OMD[lxce@7f3c49fe22bf]:~$ cmk -d hostip | grep -A 3 showdisk
 <<<showdisk>>>
 liuyang         3771980
-liusq           8524160
-lixin           80
-panpeng         56
 perry           6134268
 ```
 
@@ -137,7 +128,5 @@ OK - Agent version 1.2.8p20, execution time 0.6 sec|execution_time=0.636 user_ti
 **6.** 在check_mk网页中查看。
 
 - [ ] WATO -> Hosts -> Folder -> 选择对应机器的Edit the service -> 在available中查看是否有刚才添加的service -> 手动选中添加到监控列表中
-
-
 
 <!--blog-->
