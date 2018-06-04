@@ -19,3 +19,7 @@
 **2.** git log
 
    > 查看该次提交了哪些文件: git log --oneline --name-only -1
+
+**3.** git reset 修复HEAD指针
+
+   > git reset --hard ORIG_HEAD 这个是针对HEAD指针丢失了的危险情况，回退代码到上次reset之前。
