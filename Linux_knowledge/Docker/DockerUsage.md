@@ -26,4 +26,4 @@ http://blog.csdn.net/hjh00/article/details/51437815
 
 docker run -it -p 8080:8080 -p 81:80 -p 29418:29418 -p 25:25 test_gerrit /bin/bash
 
-**7.**
+**7.** docker run --rm 参数可以在退出的时候自动删除掉该container
