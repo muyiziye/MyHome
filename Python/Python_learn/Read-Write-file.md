@@ -27,7 +27,7 @@
   f.close()
   ```
 
-**C.** f.readlines([size]) 读取并且返回列表，size设置一次读取多少字节。
+**C.** f.readlines([size]) 读取并且返回列表，size设置一次读取多少字节，但其仍然是按照整行处理。
   
   ```
   with open(file_name, 'r') as f:
