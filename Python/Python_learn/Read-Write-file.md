@@ -21,8 +21,24 @@
 **B.** f.readline([size]) 读取整行，其中包括\n 字符。 通常使用方法为
 
   ```
-  with open(file_name, 'r') as f:
-    a_str = f.readline()
+  f = open(file_name):
+  for line in f.readline():
+     print line
+  f.close()
   ```
 
-**C.** f.readlines([size]) 读取并且返回列表，size设置一次读取多少字节， 有和上面类似的方法。
+**C.** f.readlines([size]) 读取并且返回列表，size设置一次读取多少字节。
+  
+  ```
+  with open(file_name, 'r') as f:
+    for line in f.readlines():
+        print line
+  ```
+
+**D.** 或者不用上面三种
+
+  ```
+  with open(file_name) as f:
+    for line in f:
+      print line
+  ```
