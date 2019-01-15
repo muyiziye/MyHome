@@ -35,7 +35,7 @@
         print line
   ```
 
-**D.** 或者不用上面三种
+**D.** 或者不用上面三种, 因为open的返回值直接就是可迭代对象
 
   ```
   with open(file_name) as f:
