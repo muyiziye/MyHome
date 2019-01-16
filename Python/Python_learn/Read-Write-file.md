@@ -42,3 +42,6 @@
     for line in f:
       print line
   ```
+
+### 3. 写入文件
+
