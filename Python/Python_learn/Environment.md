@@ -24,7 +24,7 @@ categories:
 
 <!-- more -->
 
-5.在虚拟环境下面输入deactive命令即可退出虚拟环境。
+5.在虚拟环境下面输入deactivate命令即可退出虚拟环境。
 
 ---
 
