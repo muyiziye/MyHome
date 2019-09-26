@@ -23,7 +23,7 @@ with open(json_name, "w") as dump_f:
     json.dump(json_report, dump_f, indent=4)
 ```
 
-* 都json文件
+* 读json文件
 ```
 with open(json_name, "r") as load_f:
     load_dict = json.load(load_f)
