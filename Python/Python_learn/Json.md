@@ -14,3 +14,17 @@
 * 实例:
 * json_data = json.dumps(src_data)
 * print json.loads(json_data)["name"]
+
+3. 读写json文件
+
+* 写json文件
+```
+with open(json_name, "w") as dump_f:
+    json.dump(json_report, dump_f, indent=4)
+```
+
+* 都json文件
+```
+with open(json_name, "r") as load_f:
+    load_dict = json.load(load_f)
+```
